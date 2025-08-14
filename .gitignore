@@ -1,0 +1,296 @@
+# ===== DEPENDENCIES =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===== BUILD OUTPUTS =====
+dist/
+build/
+*.min.js
+*.min.css
+*.map
+.sass-cache/
+
+# ===== ENVIRONMENT VARIABLES =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===== VIRTUAL ENVIRONMENTS =====
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+.venv/
+env.bak/
+venv.bak/
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git.mypy_cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+
+# ===== IDE AND EDITOR FILES =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# ===== OS GENERATED FILES =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===== LOGS =====
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===== RUNTIME DATA =====
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===== COVERAGE AND TESTING =====
+coverage/
+.nyc_output
+lib-cov
+*.lcov
+.coveragerc
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ===== TEMPORARY FOLDERS =====
+tmp/
+temp/
+.tmp/
+.temp/
+
+# ===== CACHE DIRECTORIES =====
+.npm
+.eslintcache
+.node_repl_history
+.parcel-cache
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+.serverless
+.fusebox/
+.dynamodb/
+
+# ===== PACKAGE MANAGER FILES =====
+*.tgz
+.yarn-integrity
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ===== WEBPACK =====
+.webpack/
+
+# ===== ROLLUP =====
+.rollup.cache/
+
+# ===== BROWSER SYNC =====
+.browser-sync/
+
+# ===== GULP =====
+.gulp/
+
+# ===== GRUNT =====
+.grunt/
+
+# ===== BOWER =====
+bower_components/
+
+# ===== JSPM =====
+jspm_packages/
+
+# ===== RUBY =====
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+lib/bundler/man/
+
+# ===== JAVA =====
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+target/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== C# =====
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# ===== GO =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# ===== RUST =====
+/target/
+Cargo.lock
+
+# ===== PHP =====
+/vendor/
+composer.phar
+composer.lock
+
+# ===== DATABASES =====
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===== BACKUP FILES =====
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*~
+
+# ===== COMPRESSED FILES =====
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===== MEDIA FILES (OPTIONAL - UNCOMMENT IF NEEDED) =====
+# *.mp4
+# *.mov
+# *.avi
+# *.wmv
+# *.flv
+# *.webm
+
+# ===== LARGE FILES (OPTIONAL - UNCOMMENT IF NEEDED) =====
+# *.psd
+# *.ai
+# *.sketch
+# *.fig
+
+# ===== LOCAL CONFIGURATION =====
+config.local.js
+config.local.json
+settings.local.js
+settings.local.json
+
+# ===== SECURITY =====
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ===== MISC =====
+.tern-port
+.sass-cache/
+.connect.lock
+.typings/ 
+*venv*
+prfl-venv/
