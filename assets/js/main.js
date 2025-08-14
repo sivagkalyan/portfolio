@@ -485,10 +485,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const typewriter = new Typewriter(
             typewriterElement,
             [
-                "Crafting digital experiences that matter",
-                "Building innovative web solutions",
-                "Creating beautiful user interfaces",
-                "Turning ideas into reality"
+                "Architecting scalable data solutions",
+                "Building robust data pipelines",
+                "Transforming data into insights",
+                "Driving business growth through innovation"
             ],
             100,
             50,

@@ -1,0 +1,39 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bgGradient)"/>
+  
+  <!-- Database icon -->
+  <rect x="50" y="80" width="80" height="100" rx="10" fill="#ffffff" opacity="0.9"/>
+  <rect x="60" y="90" width="60" height="8" rx="4" fill="#667eea"/>
+  <rect x="60" y="110" width="60" height="8" rx="4" fill="#667eea"/>
+  <rect x="60" y="130" width="60" height="8" rx="4" fill="#667eea"/>
+  <rect x="60" y="150" width="60" height="8" rx="4" fill="#667eea"/>
+  
+  <!-- Checkmark icons -->
+  <circle cx="280" cy="100" r="25" fill="#10b981" opacity="0.9"/>
+  <path d="M270 100 L275 105 L290 90" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="320" cy="150" r="20" fill="#10b981" opacity="0.9"/>
+  <path d="M312 150 L315 153 L328 140" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Data flow arrows -->
+  <path d="M140 130 L200 130" stroke="#ffffff" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M200 130 L240 100" stroke="#ffffff" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M200 130 L240 150" stroke="#ffffff" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Text -->
+  <text x="200" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Data Validation</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+  </defs>
+</svg> 

@@ -1,0 +1,48 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bgGradient)"/>
+  
+  <!-- Source cloud -->
+  <ellipse cx="100" cy="120" rx="40" ry="25" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="90" cy="110" rx="15" ry="10" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="110" cy="110" rx="12" ry="8" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="95" cy="130" rx="10" ry="6" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Target cloud -->
+  <ellipse cx="300" cy="120" rx="40" ry="25" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="290" cy="110" rx="15" ry="10" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="310" cy="110" rx="12" ry="8" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="295" cy="130" rx="10" ry="6" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Data transfer arrows -->
+  <path d="M140 120 L200 120" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M200 120 L260 120" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Data packets -->
+  <rect x="160" y="115" width="20" height="10" rx="2" fill="#10b981" opacity="0.8"/>
+  <rect x="220" y="115" width="20" height="10" rx="2" fill="#10b981" opacity="0.8"/>
+  
+  <!-- Progress indicator -->
+  <rect x="150" y="180" width="100" height="8" rx="4" fill="#ffffff" opacity="0.3"/>
+  <rect x="150" y="180" width="75" height="8" rx="4" fill="#10b981"/>
+  
+  <!-- Status icons -->
+  <circle cx="200" cy="200" r="12" fill="#10b981"/>
+  <path d="M195 200 L198 203 L205 196" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="200" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Data Migration</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+  </defs>
+</svg> 

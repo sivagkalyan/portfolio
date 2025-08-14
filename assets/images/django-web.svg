@@ -1,0 +1,40 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#44b78b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5a3d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bgGradient)"/>
+  
+  <!-- Browser window -->
+  <rect x="80" y="60" width="240" height="140" rx="8" fill="#ffffff" opacity="0.95"/>
+  <rect x="80" y="60" width="240" height="25" rx="8" fill="#e5e7eb"/>
+  
+  <!-- Browser buttons -->
+  <circle cx="95" cy="72" r="4" fill="#ef4444"/>
+  <circle cx="105" cy="72" r="4" fill="#f59e0b"/>
+  <circle cx="115" cy="72" r="4" fill="#10b981"/>
+  
+  <!-- Django logo -->
+  <circle cx="200" cy="130" r="35" fill="#44b78b"/>
+  <text x="200" y="140" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Django</text>
+  
+  <!-- Code elements -->
+  <rect x="280" y="80" width="25" height="3" rx="1" fill="#44b78b"/>
+  <rect x="280" y="90" width="20" height="3" rx="1" fill="#44b78b"/>
+  <rect x="280" y="100" width="30" height="3" rx="1" fill="#44b78b"/>
+  <rect x="280" y="110" width="18" height="3" rx="1" fill="#44b78b"/>
+  <rect x="280" y="120" width="25" height="3" rx="1" fill="#44b78b"/>
+  
+  <!-- Web elements -->
+  <rect x="100" y="95" width="60" height="40" rx="4" fill="#44b78b" opacity="0.8"/>
+  <rect x="110" y="105" width="40" height="5" rx="2" fill="#ffffff"/>
+  <rect x="110" y="115" width="30" height="5" rx="2" fill="#ffffff"/>
+  <rect x="110" y="125" width="35" height="5" rx="2" fill="#ffffff"/>
+  
+  <!-- Text -->
+  <text x="200" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Django Web Apps</text>
+</svg> 

@@ -1,0 +1,51 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bgGradient)"/>
+  
+  <!-- Pipeline stages -->
+  <rect x="50" y="100" width="60" height="50" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="80" y="130" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Build</text>
+  
+  <rect x="140" y="100" width="60" height="50" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="170" y="130" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Test</text>
+  
+  <rect x="230" y="100" width="60" height="50" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="260" y="130" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Deploy</text>
+  
+  <rect x="320" y="100" width="60" height="50" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="350" y="130" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Monitor</text>
+  
+  <!-- Arrows connecting stages -->
+  <path d="M110 125 L140 125" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M200 125 L230 125" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M290 125 L320 125" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Automation icons -->
+  <circle cx="80" cy="180" r="15" fill="#10b981"/>
+  <path d="M75 180 L78 183 L85 176" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="170" cy="180" r="15" fill="#10b981"/>
+  <path d="M165 180 L168 183 L175 176" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="260" cy="180" r="15" fill="#10b981"/>
+  <path d="M255 180 L258 183 L265 176" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="350" cy="180" r="15" fill="#10b981"/>
+  <path d="M345 180 L348 183 L355 176" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="200" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">CI/CD Pipeline</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+  </defs>
+</svg> 
